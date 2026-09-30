@@ -1,0 +1,46 @@
+rows 768 shapes 12
+
+=== Heating load — random CV ===
+                    RMSE_mean  RMSE_std  MAE_mean  MAE_std  R2_mean  R2_std
+model                                                                     
+Gradient boosting      0.374     0.059     0.271    0.030    0.999   0.000
+Random forest          0.463     0.073     0.312    0.041    0.998   0.001
+Decision tree          0.512     0.075     0.344    0.048    0.997   0.001
+SVR (RBF)              0.802     0.147     0.559    0.082    0.993   0.003
+kNN                    2.124     0.296     1.360    0.215    0.954   0.012
+Ridge                  2.930     0.316     2.088    0.250    0.914   0.017
+
+=== Heating load — grouped CV ===
+                    RMSE_mean  RMSE_std  MAE_mean  MAE_std  R2_mean  R2_std
+model                                                                     
+Ridge                  4.126     2.469     3.425    2.150    0.739   0.287
+kNN                    4.351     3.225     3.640    2.790    0.666   0.423
+Random forest          4.971     3.458     4.215    3.028    0.573   0.430
+Gradient boosting      5.502     3.118     4.680    2.802    0.541   0.413
+Decision tree          6.870     5.952     5.781    4.823    0.043   1.621
+SVR (RBF)             12.959     4.683    10.717    4.227   -0.993   1.170
+
+=== Cooling load — random CV ===
+                    RMSE_mean  RMSE_std  MAE_mean  MAE_std  R2_mean  R2_std
+model                                                                     
+Gradient boosting      1.073     0.146     0.746    0.100    0.987   0.004
+Random forest          1.577     0.191     0.981    0.134    0.972   0.007
+SVR (RBF)              1.762     0.260     1.130    0.176    0.965   0.009
+Decision tree          2.077     0.354     1.246    0.272    0.950   0.017
+kNN                    2.469     0.341     1.678    0.255    0.931   0.016
+Ridge                  3.190     0.410     2.267    0.285    0.885   0.025
+
+=== Cooling load — grouped CV ===
+                    RMSE_mean  RMSE_std  MAE_mean  MAE_std  R2_mean  R2_std
+model                                                                     
+Ridge                  4.482     2.640     3.773    2.548    0.679   0.307
+kNN                    4.768     2.978     4.038    2.764    0.598   0.441
+Random forest          5.395     2.992     4.683    2.849    0.522   0.410
+Gradient boosting      5.490     3.083     4.697    2.886    0.456   0.510
+Decision tree          7.713     4.882     6.599    4.366    0.097   0.799
+SVR (RBF)             11.884     4.636    10.274    4.577   -0.889   1.170
+done
+
+real	13m27.732s
+user	13m10.171s
+sys	1m30.406s

@@ -1,0 +1,17 @@
+rows 768 shapes 12 rows/shape [64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64]
+{'target': 'Y1', 'model': 'Ridge', 'inner_cv': 'random', 'loso_rmse': np.float64(3.7295077224387043)}
+{'target': 'Y1', 'model': 'Ridge', 'inner_cv': 'grouped', 'loso_rmse': np.float64(3.228568651016884)}
+{'target': 'Y1', 'model': 'SVR (RBF)', 'inner_cv': 'random', 'loso_rmse': np.float64(9.591742230345975)}
+{'target': 'Y1', 'model': 'SVR (RBF)', 'inner_cv': 'grouped', 'loso_rmse': np.float64(2.952393819374494)}
+{'target': 'Y1', 'model': 'Random forest', 'inner_cv': 'random', 'loso_rmse': np.float64(4.433038784669404)}
+{'target': 'Y1', 'model': 'Random forest', 'inner_cv': 'grouped', 'loso_rmse': np.float64(4.144404702531954)}
+{'target': 'Y1', 'model': 'Gradient boosting', 'inner_cv': 'random', 'loso_rmse': np.float64(4.128491992847869)}
+{'target': 'Y1', 'model': 'Gradient boosting', 'inner_cv': 'grouped', 'loso_rmse': np.float64(3.8617079636037386)}
+{'target': 'Y2', 'model': 'Ridge', 'inner_cv': 'random', 'loso_rmse': np.float64(4.173896208784669)}
+{'target': 'Y2', 'model': 'Ridge', 'inner_cv': 'grouped', 'loso_rmse': np.float64(3.5008382841096495)}
+{'target': 'Y2', 'model': 'SVR (RBF)', 'inner_cv': 'random', 'loso_rmse': np.float64(8.914877308549958)}
+{'target': 'Y2', 'model': 'SVR (RBF)', 'inner_cv': 'grouped', 'loso_rmse': np.float64(3.3108577298171924)}
+{'target': 'Y2', 'model': 'Random forest', 'inner_cv': 'random', 'loso_rmse': np.float64(4.765164144547619)}
+{'target': 'Y2', 'model': 'Random forest', 'inner_cv': 'grouped', 'loso_rmse': np.float64(4.824187371685554)}
+{'target': 'Y2', 'model': 'Gradient boosting', 'inner_cv': 'random', 'loso_rmse': np.float64(4.625725656088754)}
+{'target': 'Y2', 'model': 'Gradient boosting', 'inner_cv': 'grouped', 'loso_rmse': np.float64(4.663632438908022)}

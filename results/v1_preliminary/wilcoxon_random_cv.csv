@@ -1,0 +1,11 @@
+target,best,other,p
+Y1,Gradient boosting,Ridge,1.862645149230957e-09
+Y1,Gradient boosting,kNN,1.862645149230957e-09
+Y1,Gradient boosting,SVR (RBF),1.862645149230957e-09
+Y1,Gradient boosting,Decision tree,9.313225746154785e-09
+Y1,Gradient boosting,Random forest,8.009374141693115e-08
+Y2,Gradient boosting,Ridge,1.862645149230957e-09
+Y2,Gradient boosting,kNN,1.862645149230957e-09
+Y2,Gradient boosting,SVR (RBF),1.862645149230957e-09
+Y2,Gradient boosting,Decision tree,1.862645149230957e-09
+Y2,Gradient boosting,Random forest,1.862645149230957e-09

@@ -1,0 +1,17 @@
+target,model,inner_cv,loso_rmse
+Y1,Ridge,random,3.7295077224387043
+Y1,Ridge,grouped,3.228568651016884
+Y1,SVR (RBF),random,9.591742230345975
+Y1,SVR (RBF),grouped,2.952393819374494
+Y1,Random forest,random,4.433038784669404
+Y1,Random forest,grouped,4.144404702531954
+Y1,Gradient boosting,random,4.128491992847869
+Y1,Gradient boosting,grouped,3.8617079636037386
+Y2,Ridge,random,4.173896208784669
+Y2,Ridge,grouped,3.5008382841096495
+Y2,SVR (RBF),random,8.914877308549958
+Y2,SVR (RBF),grouped,3.3108577298171924
+Y2,Random forest,random,4.765164144547619
+Y2,Random forest,grouped,4.824187371685554
+Y2,Gradient boosting,random,4.625725656088754
+Y2,Gradient boosting,grouped,4.663632438908022

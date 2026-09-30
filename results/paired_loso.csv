@@ -1,0 +1,13 @@
+target,a,b,mean_diff,a_better_in,of,wilcoxon_p
+Y1,Hybrid (Ridge->GBM) + phys,Ridge,0.17429704577257735,6,12,0.67724609375
+Y1,Hybrid (Ridge->GBM) + phys,Gradient boosting,-0.4588422668142777,6,12,0.791015625
+Y1,Hybrid (Ridge->GBM) + phys,Ridge + phys,0.0012262208928328078,7,12,1.0
+Y1,Ridge + phys,Ridge,0.17307082487974448,5,12,0.6220703125
+Y1,GBM + phys,Gradient boosting,0.5456447467133786,6,12,0.6220703125
+Y1,Gradient boosting,Ridge,0.633139312586855,7,12,0.5693359375
+Y2,Hybrid (Ridge->GBM) + phys,Ridge,0.2946263128172412,5,12,0.38037109375
+Y2,Hybrid (Ridge->GBM) + phys,Gradient boosting,-0.868167841981132,8,12,0.33935546875
+Y2,Hybrid (Ridge->GBM) + phys,Ridge + phys,0.22055320596210418,6,12,0.423828125
+Y2,Ridge + phys,Ridge,0.07407310685513706,5,12,0.90966796875
+Y2,GBM + phys,Gradient boosting,0.1484964131098345,4,12,0.423828125
+Y2,Gradient boosting,Ridge,1.1627941547983733,4,12,0.33935546875

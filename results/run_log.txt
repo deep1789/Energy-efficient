@@ -1,0 +1,50 @@
+rows 768 shapes 12 rows/shape [64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64]
+random   Y1 Ridge                            1s
+random   Y1 kNN                              1s
+random   Y1 SVR (RBF)                        8s
+random   Y1 Random forest                   65s
+random   Y1 Gradient boosting               40s
+random   Y1 Ridge + phys                     1s
+random   Y1 GBM + phys                      50s
+random   Y1 Hybrid (Ridge->GBM) + phys      62s
+random   Y2 Ridge                            1s
+random   Y2 kNN                              1s
+random   Y2 SVR (RBF)                        8s
+random   Y2 Random forest                   66s
+random   Y2 Gradient boosting               40s
+random   Y2 Ridge + phys                     1s
+random   Y2 GBM + phys                      52s
+random   Y2 Hybrid (Ridge->GBM) + phys      63s
+loso     Y1 Ridge                            1s
+loso     Y1 kNN                              1s
+loso     Y1 SVR (RBF)                        4s
+loso     Y1 Random forest                   35s
+loso     Y1 Gradient boosting               20s
+loso     Y1 Ridge + phys                     1s
+loso     Y1 GBM + phys                      24s
+loso     Y1 Hybrid (Ridge->GBM) + phys      30s
+loso     Y2 Ridge                            1s
+loso     Y2 kNN                              1s
+loso     Y2 SVR (RBF)                        3s
+loso     Y2 Random forest                   35s
+loso     Y2 Gradient boosting               20s
+loso     Y2 Ridge + phys                     1s
+loso     Y2 GBM + phys                      24s
+loso     Y2 Hybrid (Ridge->GBM) + phys      30s
+shuffle  Y1 Ridge                            1s
+shuffle  Y1 kNN                              1s
+shuffle  Y1 SVR (RBF)                        5s
+shuffle  Y1 Random forest                   57s
+shuffle  Y1 Gradient boosting               32s
+shuffle  Y1 Ridge + phys                     1s
+shuffle  Y1 GBM + phys                      37s
+shuffle  Y1 Hybrid (Ridge->GBM) + phys      47s
+shuffle  Y2 Ridge                            1s
+shuffle  Y2 kNN                              1s
+shuffle  Y2 SVR (RBF)                        4s
+shuffle  Y2 Random forest                   53s
+shuffle  Y2 Gradient boosting               30s
+shuffle  Y2 Ridge + phys                     1s
+shuffle  Y2 GBM + phys                      36s
+shuffle  Y2 Hybrid (Ridge->GBM) + phys      46s
+done
