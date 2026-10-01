@@ -1,13 +1,14 @@
 # Energy-efficient
 
-Leakage-aware re-evaluation of machine-learning models on the UCI Energy Efficiency dataset (ENB2012).
+Group leakage in tabular regression benchmarks: random-split versus group-held-out evaluation, with matched nested tuning, on three public datasets (UCI Energy Efficiency ENB2012, Concrete Compressive Strength, Parkinson's Telemonitoring).
 
-- `paper/paper.md` - journal-style manuscript (draft; authors, affiliations and reference [5] details to be completed)
-- `data/ENB2012_data.csv` - dataset (768 rows, 8 inputs, 2 targets)
-- `src/run_experiments.py` - main experiments (random 12-fold, leave-one-geometry-out, 3-geometry hold-out; nested tuning)
-- `src/ablation_inner_cv.py` - random vs grouped inner-fold tuning under LOSO
-- `src/analyze.py` - tables, statistics, figures
-- `results/` - per-fold results and summaries (`results/v1_preliminary/` is a superseded first run that used random inner folds inside grouped CV)
+- `paper/paper.md` - journal-style manuscript (draft; authors, affiliations and references [5], [7], [8] to be completed/verified)
+- `data/` - the three datasets
+- `src/run_experiments.py` - ENB2012 experiments (random 12-fold, leave-one-geometry-out, 3-geometry hold-out; nested tuning; physics-informed variants)
+- `src/ablation_inner_cv.py` - ENB2012: random vs group-matched inner-fold tuning
+- `src/run_extra.py` - Concrete and Parkinson's (`python src/run_extra.py concrete`; for Parkinson's optionally `python src/run_extra.py parkinsons <protocol> <target>` to run parts in parallel; results resume after interruption)
+- `src/analyze.py`, `src/analyze_extra.py`, `src/baselines.py` - tables, statistics, figures, training-mean baselines
+- `results/` - per-fold results and summaries (`results/v1_preliminary/` is a superseded first ENB2012 run that used random inner folds inside grouped CV)
 - `figures/` - figures used in the paper
 
-Reproduce: `pip install pandas scikit-learn scipy matplotlib`, then run the three scripts in the order above from the repo root (about 30 minutes on 4 cores). Seed 42.
+Reproduce: `pip install pandas scikit-learn scipy matplotlib`, then run the scripts above from the repo root. Seed 42.
