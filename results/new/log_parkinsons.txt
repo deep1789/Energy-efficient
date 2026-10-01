@@ -1,0 +1,17 @@
+ablation voice
+ablation voice+demo
+ablation voice+time
+ablation all
+ablation demo+time
+per patient done
+personalisation fold 0
+personalisation fold 1
+personalisation fold 2
+personalisation fold 3
+personalisation fold 4
+personalisation fold 5
+personalisation fold 6
+personalisation fold 7
+personalisation fold 8
+personalisation fold 9
+done

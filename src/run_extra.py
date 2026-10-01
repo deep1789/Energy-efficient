@@ -48,7 +48,8 @@ MODELS = {
     "Gradient boosting": (GradientBoostingRegressor(random_state=SEED, n_estimators=200),
                           {"learning_rate": [0.05, 0.1], "max_depth": [2, 3]}),
 }
-ABLATE = ["Ridge", "SVR (RBF)", "Gradient boosting"]
+import os as _os
+ABLATE = list(MODELS) if _os.environ.get("ABLATE_ALL") else ["Ridge", "SVR (RBF)", "Gradient boosting"]
 
 def splits(protocol, rep):
     rs = np.random.RandomState(SEED + rep)

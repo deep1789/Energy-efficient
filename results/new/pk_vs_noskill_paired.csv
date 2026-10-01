@@ -1,0 +1,11 @@
+target,model,folds_better,mean_diff_rmse,p
+total_UPDRS,Gradient boosting,4,1.8243,0.1055
+total_UPDRS,Random forest,2,2.2721,0.1055
+total_UPDRS,Ridge,4,1.0229,0.375
+total_UPDRS,SVR (RBF),2,2.6425,0.0137
+total_UPDRS,kNN,2,2.2539,0.0098
+motor_UPDRS,Gradient boosting,3,1.1512,0.2754
+motor_UPDRS,Random forest,3,1.0421,0.2754
+motor_UPDRS,Ridge,5,0.7876,0.625
+motor_UPDRS,SVR (RBF),1,2.1995,0.0039
+motor_UPDRS,kNN,1,1.3945,0.0195

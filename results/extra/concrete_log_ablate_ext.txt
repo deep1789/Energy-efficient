@@ -1,0 +1,6 @@
+concrete (1030, 8) groups 427
+grouped_randominner  rep0 concrete_compressive_strength  kNN                    1s
+grouped_randominner  rep0 concrete_compressive_strength  Random forest         44s
+grouped_randominner  rep1 concrete_compressive_strength  kNN                    1s
+grouped_randominner  rep1 concrete_compressive_strength  Random forest         41s
+done

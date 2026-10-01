@@ -1,0 +1,45 @@
+sim 0.05 2
+sim 0.05 5
+sim 0.05 20
+sim 0.05 64
+sim 0.2 2
+sim 0.2 5
+sim 0.2 20
+sim 0.2 64
+sim 0.4 2
+sim 0.4 5
+sim 0.4 20
+sim 0.4 64
+sim 0.6 2
+sim 0.6 5
+sim 0.6 20
+sim 0.6 64
+sim 0.8 2
+sim 0.8 5
+sim 0.8 20
+sim 0.8 64
+/home/user/energy-efficient/src/exp_theory.py:9: RuntimeWarning: divide by zero encountered in scalar divide
+  return 1.0 / (1.0 / r + m_tr / (1 - r))
+     dataset       target  groups   mean_m  rowwt_m  icc_y  icc_resid  rho_theory  rho_theory_max
+0    ENB2012      heating      12   64.000   64.000  0.914      0.894       3.043           3.069
+1    ENB2012      cooling      12   64.000   64.000  0.927      0.847       2.536           2.558
+2   Concrete     strength     427    2.412    4.285  0.406      0.000       1.000           1.000
+3  Parkinson  total UPDRS      42  139.881  141.567  0.935      0.895       3.081           3.093
+4  Parkinson  motor UPDRS      42  139.881  141.567  0.919      0.866       2.721           2.731
+      dataset   K  predicted_frac  measured_frac
+0     ENB2012   2           1.000            NaN
+1     ENB2012   5           1.000            NaN
+2     ENB2012  10           1.000            NaN
+3     ENB2012  20           1.000            NaN
+4     ENB2012  12             NaN          1.000
+5    Concrete   2           0.672            NaN
+6    Concrete   5           0.743            NaN
+7    Concrete  10           0.753            NaN
+8    Concrete  20           0.757            NaN
+9    Concrete  10             NaN          0.751
+10  Parkinson   2           1.000            NaN
+11  Parkinson   5           1.000            NaN
+12  Parkinson  10           1.000            NaN
+13  Parkinson  20           1.000            NaN
+14  Parkinson  10             NaN          1.000
+done

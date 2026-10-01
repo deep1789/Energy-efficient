@@ -1,0 +1,1 @@
+[{'target': 'Y1', 'model': 'kNN', 'inner_cv': 'random', 'loso_rmse': 3.747468889316393}, {'target': 'Y1', 'model': 'kNN', 'inner_cv': 'grouped', 'loso_rmse': 3.664379790266631}, {'target': 'Y2', 'model': 'kNN', 'inner_cv': 'random', 'loso_rmse': 4.2712895815381735}, {'target': 'Y2', 'model': 'kNN', 'inner_cv': 'grouped', 'loso_rmse': 4.023829851650455}]

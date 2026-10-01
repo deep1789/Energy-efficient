@@ -1,0 +1,5 @@
+target,model,inner_cv,loso_rmse
+Y1,kNN,random,3.747468889316393
+Y1,kNN,grouped,3.664379790266631
+Y2,kNN,random,4.2712895815381735
+Y2,kNN,grouped,4.023829851650455

@@ -1,0 +1,51 @@
+block,protocol,model,rmse,rank
+ENB heating,random,Gradient boosting,0.4059949930972513,1.0
+ENB heating,random,Random forest,0.4691282884558827,2.0
+ENB heating,random,Ridge,2.931980167200281,5.0
+ENB heating,random,SVR (RBF),1.8803467114482504,3.0
+ENB heating,random,kNN,2.209682364457928,4.0
+ENB heating,grouped,Gradient boosting,3.8617079636037386,4.0
+ENB heating,grouped,Random forest,4.144404702531953,5.0
+ENB heating,grouped,Ridge,3.228568651016884,2.0
+ENB heating,grouped,SVR (RBF),2.952393819374494,1.0
+ENB heating,grouped,kNN,3.664379790266631,3.0
+ENB cooling,random,Gradient boosting,1.2468074313314652,1.0
+ENB cooling,random,Random forest,1.5946071813880158,2.0
+ENB cooling,random,Ridge,3.1862711109555573,5.0
+ENB cooling,random,SVR (RBF),2.2895646400657914,3.0
+ENB cooling,random,kNN,2.5711516014874074,4.0
+ENB cooling,grouped,Gradient boosting,4.663632438908023,4.0
+ENB cooling,grouped,Random forest,4.824187371685553,5.0
+ENB cooling,grouped,Ridge,3.500838284109649,2.0
+ENB cooling,grouped,SVR (RBF),3.3108577298171924,1.0
+ENB cooling,grouped,kNN,4.023829851650455,3.0
+Concrete,random,Ridge,10.474,5.0
+Concrete,random,kNN,8.63,4.0
+Concrete,random,SVR (RBF),6.195,3.0
+Concrete,random,Random forest,4.798,2.0
+Concrete,random,Gradient boosting,4.644,1.0
+Concrete,grouped,Ridge,10.547,5.0
+Concrete,grouped,kNN,8.575,4.0
+Concrete,grouped,SVR (RBF),6.458,3.0
+Concrete,grouped,Random forest,5.907,2.0
+Concrete,grouped,Gradient boosting,5.765,1.0
+PD total,random,Ridge,9.744,5.0
+PD total,random,kNN,6.304,3.0
+PD total,random,SVR (RBF),7.257,4.0
+PD total,random,Random forest,1.679,1.0
+PD total,random,Gradient boosting,3.922,2.0
+PD total,grouped,Ridge,11.548,1.0
+PD total,grouped,kNN,12.944,4.0
+PD total,grouped,SVR (RBF),13.338,5.0
+PD total,grouped,Random forest,12.726,3.0
+PD total,grouped,Gradient boosting,12.324,2.0
+PD motor,random,Ridge,7.501,5.0
+PD motor,random,kNN,4.678,3.0
+PD motor,random,SVR (RBF),5.226,4.0
+PD motor,random,Random forest,1.309,1.0
+PD motor,random,Gradient boosting,3.103,2.0
+PD motor,grouped,Ridge,8.902,1.0
+PD motor,grouped,kNN,9.626,4.0
+PD motor,grouped,SVR (RBF),10.391,5.0
+PD motor,grouped,Random forest,9.243,2.0
+PD motor,grouped,Gradient boosting,9.415,3.0

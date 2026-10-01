@@ -1,16 +1,16 @@
 dataset,target,model,sd,random,random_lo,random_hi,grouped,grouped_lo,grouped_hi,grouped_randominner,gap,tuning_ratio,nrmse_random,nrmse_grouped
 concrete,concrete_compressive_strength,Gradient boosting,16.706,4.644,4.315,4.991,5.765,5.432,6.14,5.765,1.242,1.0,0.278,0.345
-concrete,concrete_compressive_strength,Random forest,16.706,4.798,4.541,5.035,5.907,5.563,6.274,,1.231,,0.287,0.354
+concrete,concrete_compressive_strength,Random forest,16.706,4.798,4.541,5.035,5.907,5.563,6.274,5.905,1.231,1.0,0.287,0.354
 concrete,concrete_compressive_strength,Ridge,16.706,10.474,10.12,10.854,10.547,10.255,10.824,10.542,1.007,0.999,0.627,0.631
 concrete,concrete_compressive_strength,SVR (RBF),16.706,6.195,5.93,6.468,6.458,6.158,6.717,6.458,1.043,1.0,0.371,0.387
-concrete,concrete_compressive_strength,kNN,16.706,8.63,8.196,9.071,8.575,8.145,9.067,,0.994,,0.517,0.513
+concrete,concrete_compressive_strength,kNN,16.706,8.63,8.196,9.071,8.575,8.145,9.067,8.575,0.994,1.0,0.517,0.513
 parkinsons,motor_UPDRS,Gradient boosting,8.129,3.103,3.031,3.171,9.415,7.827,10.881,10.066,3.034,1.069,0.382,1.158
-parkinsons,motor_UPDRS,Random forest,8.129,1.309,1.186,1.432,9.243,7.818,10.526,,7.059,,0.161,1.137
+parkinsons,motor_UPDRS,Random forest,8.129,1.309,1.186,1.432,9.243,7.818,10.526,9.963,7.059,1.078,0.161,1.137
 parkinsons,motor_UPDRS,Ridge,8.129,7.501,7.356,7.661,8.902,7.649,10.18,8.962,1.187,1.007,0.923,1.095
 parkinsons,motor_UPDRS,SVR (RBF),8.129,5.226,5.171,5.279,10.391,9.004,11.758,10.347,1.988,0.996,0.643,1.278
-parkinsons,motor_UPDRS,kNN,8.129,4.678,4.564,4.796,9.626,8.16,10.96,,2.058,,0.575,1.184
+parkinsons,motor_UPDRS,kNN,8.129,4.678,4.564,4.796,9.626,8.16,10.96,10.159,2.058,1.055,0.575,1.184
 parkinsons,total_UPDRS,Gradient boosting,10.7,3.922,3.835,3.994,12.324,10.447,13.967,13.811,3.142,1.121,0.367,1.152
-parkinsons,total_UPDRS,Random forest,10.7,1.679,1.525,1.831,12.726,10.817,14.291,,7.578,,0.157,1.189
+parkinsons,total_UPDRS,Random forest,10.7,1.679,1.525,1.831,12.726,10.817,14.291,13.883,7.578,1.091,0.157,1.189
 parkinsons,total_UPDRS,Ridge,10.7,9.744,9.549,9.96,11.548,9.458,13.689,11.671,1.185,1.011,0.911,1.079
 parkinsons,total_UPDRS,SVR (RBF),10.7,7.257,7.148,7.389,13.338,10.762,15.529,13.742,1.838,1.03,0.678,1.246
-parkinsons,total_UPDRS,kNN,10.7,6.304,6.115,6.509,12.944,10.526,15.175,,2.053,,0.589,1.21
+parkinsons,total_UPDRS,kNN,10.7,6.304,6.115,6.509,12.944,10.526,15.175,13.708,2.053,1.059,0.589,1.21

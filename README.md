@@ -2,13 +2,19 @@
 
 Group leakage in tabular regression benchmarks: random-split versus group-held-out evaluation, with matched nested tuning, on three public datasets (UCI Energy Efficiency ENB2012, Concrete Compressive Strength, Parkinson's Telemonitoring).
 
-- `paper/paper.md` - journal-style manuscript (draft; authors, affiliations and references [5], [7], [8] to be completed/verified)
-- `data/` - the three datasets
-- `src/run_experiments.py` - ENB2012 experiments (random 12-fold, leave-one-geometry-out, 3-geometry hold-out; nested tuning; physics-informed variants)
-- `src/ablation_inner_cv.py` - ENB2012: random vs group-matched inner-fold tuning
-- `src/run_extra.py` - Concrete and Parkinson's (`python src/run_extra.py concrete`; for Parkinson's optionally `python src/run_extra.py parkinsons <protocol> <target>` to run parts in parallel; results resume after interruption)
-- `src/analyze.py`, `src/analyze_extra.py`, `src/baselines.py` - tables, statistics, figures, training-mean baselines
-- `results/` - per-fold results and summaries (`results/v1_preliminary/` is a superseded first ENB2012 run that used random inner folds inside grouped CV)
-- `figures/` - figures used in the paper
+## Manuscript
+- `paper/Group_leakage_tabular_regression_manuscript.docx` - journal-style manuscript for Word (native equations, line numbers, 15 figures, 18 tables). Authors, affiliations, CRediT, funding and competing-interest statements are placeholders; the generative-AI disclosure must be reviewed.
+- `paper/Group_leakage_tabular_regression_preview.pdf` - PDF preview rendered with LibreOffice (fonts differ from Word).
+- `paper/build/` - markdown sources of each section (`sec*.md`), reference list (`refs.py`), and the build scripts (`build_docx.py`, `postprocess.py`, `reference.docx`). Rebuild: `cd paper/build && python build_docx.py && python postprocess.py manuscript_raw.docx ../Group_leakage_tabular_regression_manuscript.docx` (needs `pypandoc_binary`, `python-docx`).
+- `paper/paper.md` - earlier short draft (superseded).
 
-Reproduce: `pip install pandas scikit-learn scipy matplotlib`, then run the scripts above from the repo root. Seed 42.
+## Code (`src/`)
+- `common.py` - loaders and fixed-hyper-parameter models
+- `run_experiments.py` (ENB2012 main protocol comparison), `ablation_inner_cv.py`, `exp_ablate_enb_knn.py` (tuning ablation), `run_extra.py` (Concrete and Parkinson's; resumable, can run per protocol/target in parallel)
+- `exp_theory.py` (simulation, ICC, leakage fraction), `exp_icc.py`, `exp_bound_obs.py` (bound versus observed inflation), `exp_curves.py` (learning curves, concrete strata), `exp_parkinsons.py` (feature sets, per-patient skill, calibration), `exp_sensitivity.py`, `exp_tuning_paths.py`
+- `analyze.py`, `analyze_extra.py`, `baselines.py`, `fig_structure.py`, `make_paper_figs1..6.py` - tables, statistics, figures
+
+## Data and results
+- `data/` - the three datasets; `results/` - per-fold results and summaries (`results/v1_preliminary/` is a superseded first ENB2012 run); `figures/paper/` - figures used in the manuscript.
+
+Seed 42 throughout. Python 3.11, scikit-learn 1.9.1.

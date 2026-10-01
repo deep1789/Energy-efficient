@@ -1,0 +1,4 @@
+parkinsons (5875, 19) groups 42
+grouped_randominner  rep0 motor_UPDRS                    kNN                   89s
+grouped_randominner  rep0 motor_UPDRS                    Random forest        325s
+done

@@ -1,0 +1,11 @@
+{'dataset': 'ENB2012', 'target': 'heating', 'model': 'GBM', 'random': np.float64(0.41165790293592414), 'grouped': np.float64(5.532864079293471), 'rho_obs': np.float64(13.440441783902006)}
+{'dataset': 'ENB2012', 'target': 'heating', 'model': 'Ridge', 'random': np.float64(2.986432740339644), 'grouped': np.float64(4.086081911771189), 'rho_obs': np.float64(1.3682149464067566)}
+{'dataset': 'ENB2012', 'target': 'cooling', 'model': 'GBM', 'random': np.float64(1.2305763075687537), 'grouped': np.float64(5.688614523776787), 'rho_obs': np.float64(4.622723913006067)}
+{'dataset': 'ENB2012', 'target': 'cooling', 'model': 'Ridge', 'random': np.float64(3.2576670777269663), 'grouped': np.float64(4.389287771125018), 'rho_obs': np.float64(1.347371498191165)}
+{'dataset': 'Concrete', 'target': 'strength', 'model': 'GBM', 'random': np.float64(4.54519060270873), 'grouped': np.float64(5.973542985810478), 'rho_obs': np.float64(1.314255772299299)}
+{'dataset': 'Concrete', 'target': 'strength', 'model': 'Ridge', 'random': np.float64(10.487264422287522), 'grouped': np.float64(10.524868762975007), 'rho_obs': np.float64(1.003585714937021)}
+{'dataset': 'Parkinson', 'target': 'total UPDRS', 'model': 'GBM', 'random': np.float64(3.922306737701766), 'grouped': np.float64(13.904066777532547), 'rho_obs': np.float64(3.5448698195591626)}
+{'dataset': 'Parkinson', 'target': 'total UPDRS', 'model': 'Ridge', 'random': np.float64(9.739483663383801), 'grouped': np.float64(11.791292280684466), 'rho_obs': np.float64(1.2106691369086195)}
+{'dataset': 'Parkinson', 'target': 'motor UPDRS', 'model': 'GBM', 'random': np.float64(3.1032124204579166), 'grouped': np.float64(10.171432812593842), 'rho_obs': np.float64(3.277710783038476)}
+{'dataset': 'Parkinson', 'target': 'motor UPDRS', 'model': 'Ridge', 'random': np.float64(7.495045499486859), 'grouped': np.float64(9.014664671561567), 'rho_obs': np.float64(1.2027498261589935)}
+done

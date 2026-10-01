@@ -1,0 +1,16 @@
+dataset,K,predicted_frac,measured_frac
+ENB2012,2,1.0,
+ENB2012,5,1.0,
+ENB2012,10,1.0,
+ENB2012,20,1.0,
+ENB2012,12,,1.0
+Concrete,2,0.6720655941268773,
+Concrete,5,0.7425488650017296,
+Concrete,10,0.7527896285435727,
+Concrete,20,0.7571059262469659,
+Concrete,10,,0.7514563106796117
+Parkinson,2,1.0,
+Parkinson,5,1.0,
+Parkinson,10,1.0,
+Parkinson,20,1.0,
+Parkinson,10,,1.0
