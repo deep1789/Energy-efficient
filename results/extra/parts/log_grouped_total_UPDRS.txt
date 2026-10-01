@@ -1,0 +1,7 @@
+parkinsons (5875, 19) groups 42
+grouped              rep0 total_UPDRS                    Ridge                  2s
+grouped              rep0 total_UPDRS                    kNN                  101s
+grouped              rep0 total_UPDRS                    SVR (RBF)            179s
+grouped              rep0 total_UPDRS                    Random forest        383s
+grouped              rep0 total_UPDRS                    Gradient boosting    336s
+done

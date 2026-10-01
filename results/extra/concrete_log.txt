@@ -1,0 +1,28 @@
+concrete (1030, 8) groups 427
+random               rep0 concrete_compressive_strength  Ridge                  1s
+random               rep0 concrete_compressive_strength  kNN                    1s
+random               rep0 concrete_compressive_strength  SVR (RBF)              4s
+random               rep0 concrete_compressive_strength  Random forest         34s
+random               rep0 concrete_compressive_strength  Gradient boosting     33s
+random               rep1 concrete_compressive_strength  Ridge                  1s
+random               rep1 concrete_compressive_strength  kNN                    1s
+random               rep1 concrete_compressive_strength  SVR (RBF)              5s
+random               rep1 concrete_compressive_strength  Random forest         32s
+random               rep1 concrete_compressive_strength  Gradient boosting     31s
+grouped              rep0 concrete_compressive_strength  Ridge                  1s
+grouped              rep0 concrete_compressive_strength  kNN                    1s
+grouped              rep0 concrete_compressive_strength  SVR (RBF)              4s
+grouped              rep0 concrete_compressive_strength  Random forest         32s
+grouped              rep0 concrete_compressive_strength  Gradient boosting     30s
+grouped              rep1 concrete_compressive_strength  Ridge                  1s
+grouped              rep1 concrete_compressive_strength  kNN                    1s
+grouped              rep1 concrete_compressive_strength  SVR (RBF)              4s
+grouped              rep1 concrete_compressive_strength  Random forest         39s
+grouped              rep1 concrete_compressive_strength  Gradient boosting     32s
+grouped_randominner  rep0 concrete_compressive_strength  Ridge                  1s
+grouped_randominner  rep0 concrete_compressive_strength  SVR (RBF)              4s
+grouped_randominner  rep0 concrete_compressive_strength  Gradient boosting     29s
+grouped_randominner  rep1 concrete_compressive_strength  Ridge                  1s
+grouped_randominner  rep1 concrete_compressive_strength  SVR (RBF)              4s
+grouped_randominner  rep1 concrete_compressive_strength  Gradient boosting     30s
+done

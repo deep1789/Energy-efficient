@@ -1,0 +1,5 @@
+parkinsons (5875, 19) groups 42
+grouped_randominner  rep0 motor_UPDRS                    Ridge                  2s
+grouped_randominner  rep0 motor_UPDRS                    SVR (RBF)            175s
+grouped_randominner  rep0 motor_UPDRS                    Gradient boosting    486s
+done
